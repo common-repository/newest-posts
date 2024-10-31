@@ -1,0 +1,47 @@
+/*
+Default CSS Styles for the Newest Posts Widget plugin
+Version: 1.1
+*/
+.np-widget * {
+	margin: 0;
+	padding:0;
+}
+.np-widget {
+	font-size: 12px;	
+	line-height: 18px;
+}
+.np-widget p {
+	margin-bottom: 0;
+}
+.np-widget .post-title {
+	font-size: 15px;	
+	font-weight: bold;
+}
+.np-widget .post-date {
+	font-style: italic;
+	margin-bottom: 0;
+}
+.np-widget img {
+	float: left;
+	margin: 5px 10px 0 0;
+}
+.np-widget ul li {
+  border-bottom: 1px solid #ccc;
+	list-style: none;
+	list-style-type: none;
+	margin: 3px 0;
+	padding: 3px 0;
+}
+.np-widget ul li:last-child {
+	border-bottom: none;
+}
+.np-widget .more-link {
+	display: inline;
+}
+.np-widget .post-entry { 
+  overflow: hidden;
+  padding: 0 0 5px 0;
+
+}
+.np-widget .comment-num {
+}
